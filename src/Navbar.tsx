@@ -1,5 +1,5 @@
 import Logo from "./Logo";
-import ArrowRight from "./Arrowright";
+import ArrowRight from "./ArrowRight";
 import { motion } from "framer-motion";
 import { animationStart, reveal } from "./utils/animation";
 
@@ -28,23 +28,23 @@ function Navbar() {
         </motion.div>
         <div className="flex gap-20px items-center <md:hidden">
           <motion.span variants={reveal} className="cursor-pointer">
-            solutions.
+            Inventory.
           </motion.span>
           <motion.span variants={reveal} className="cursor-pointer">
-            courses.
+            Warehouse.
           </motion.span>
           <motion.span variants={reveal} className="cursor-pointer">
-            resources.
+            Troopers.
           </motion.span>
           <motion.span variants={reveal} className="cursor-pointer">
-            about.
+            Artillery.
           </motion.span>
         </div>
         <motion.div
           variants={reveal}
           className="flex gap-5px items-center cursor-pointer"
         >
-          <span className="mb-3px">sign in</span>
+          <span className="mb-3px">Admin Login</span>
           <ArrowRight />
         </motion.div>
       </motion.div>

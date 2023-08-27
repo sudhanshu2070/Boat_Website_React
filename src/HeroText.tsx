@@ -21,7 +21,7 @@ function HeroText() {
         <span className="flex items-center gap-10px">
           Vemy <Compass /> Salvatore
         </span>
-        <span>cruising around</span>
+        <span>Cruising around</span>
       </motion.div>
       <motion.span
         variants={reveal}
